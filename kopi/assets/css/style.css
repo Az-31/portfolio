@@ -105,7 +105,7 @@ h1, h2 {
 .features {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Ini yang membuat item ke-4 ada di tengah */
+  justify-content: center;
   gap: 20px;
   margin-top: 30px;
 }
@@ -126,6 +126,13 @@ h1, h2 {
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 /* ul { list-style: none; } */
